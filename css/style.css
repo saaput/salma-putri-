@@ -1,3 +1,4 @@
+
 * { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif; }
 
     body { background:#0f172a; color:#e2e8f0; }
@@ -19,7 +20,7 @@
       height:100vh; display:flex; align-items:center; justify-content:center;
       flex-direction:column; text-align:center;
       background:linear-gradient(rgba(15,23,42,0.7), rgba(15,23,42,0.9)),
-      url('./img/hero-bg.jpg');
+      url('hero-bg.jpg');
       background-size:cover; background-position:center;
     }
 
@@ -90,4 +91,4 @@
     @media(max-width:768px){
       .about { grid-template-columns:1fr; }
       .hero h2 { font-size:2rem; }
-        }
+}
